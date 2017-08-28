@@ -27,14 +27,6 @@ $("#produce-vid").hover(
 });
 
 
-// Override Bootstrap underline of a tag on hover
-
-$("a").hover(
-	function(){
-		$("a").css("text-decoration", "none")
-		$("a").css("color", "black")
-	});
-
 // Navbar static to fixed
 
 function offSetManager(){

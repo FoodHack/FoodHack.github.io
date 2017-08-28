@@ -18,13 +18,17 @@ header {
 	position: relative;
 }
 body {
-    padding-bottom: 20px;
     background-color: rgba(254, 251, 251, 1);
     font-family: 'Raleway', sans-serif;
 }
 a {
 	color: black;
 	text-decoration: none;
+}
+a:hover,
+a:focus {
+	color: black;
+	text-decoration: none; 
 }
 .navbar .navbar-nav {
   display: inline-block;
@@ -63,22 +67,23 @@ a {
 	display: block;
 	margin: 0 auto;
 }
-.nav-img-heading {
+.jumbotron .main-navs h1 {
+	font-size: 28px;
 	background: #f9f2ec;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 100px;
 	color: black;
-	font-size: 26px;
 	width: 640px;
 	margin: 0 auto;
 }
+.nav-img-heading {
+		
+}
 footer {
 	background: #f8f2ec;
-	width: 100%;
-	position: absolute;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .copyright {
 	padding-left: 320px;
@@ -86,10 +91,17 @@ footer {
 
 
 /*Recipes Index Page*/
+.index-container {
+	padding-top: 60px;
+}
+
 .recipe-index {
 	width: 1000px;
 	list-style-type: none;
 	margin: 0 auto;
+}
+.jumbotron .recipe-list-heading {
+	font-size: 24px;
 }
 .recipes-img {
 	width: 150px;
@@ -123,12 +135,17 @@ footer {
 }
 .recipe-headings {
 	text-align: center;
+	font-size: 30px;
 }
+.ingredients-heading {
+	margin-top: 50px;
+	font-size: 26px;
+}
+
 .ingredients {
 	width: 400px;
 	list-style: none;
 	text-align: left;
-	margin-top: 40px;
 	padding: 0;	
 }
 .recipe-directions {
@@ -140,6 +157,13 @@ footer {
 	display: block;
 	margin: 0 auto;
 }
+
+/*Hacks*/
+.hack-headings {
+	text-align: center;
+	font-size: 28px;
+}
+
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
