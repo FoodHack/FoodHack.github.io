@@ -18,8 +18,8 @@ header {
 	position: relative;
 }
 body {
-    font-family: 'Raleway', sans-serif;
     background-color: rgba(255, 249, 249, 1);
+    font-family: 'Raleway', sans-serif;
 }
 a {
 	color: black;
@@ -64,7 +64,7 @@ a:focus {
 	margin-bottom: 200px;
 }
 .nav-vid {
-	display: inline-block;
+	display: block;
 	margin: 0 auto;
 }
 .jumbotron .main-navs h1 {
@@ -164,61 +164,6 @@ footer {
 	font-size: 28px;
 }
 
-/*==========  Non-Mobile First Method  ==========*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-	
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	.nav-vid {
-		width: 320px;
-	}
-	.jumbotron .main-navs h1 {
-		width: 320px;
-		font-size: 20px;
-	}
-
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-	.nav-vid {
-		width: 160px;
-	}
-	.jumbotron .main-navs h1 {
-		width: 160px;
-		font-size: 16px;
-	}
-		.copyright {
-		padding-left: 30px;
-	}
-	
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-	.nav-vid {
-		width: 160px;
-	}
-	.jumbotron .main-navs h1 {
-		width: 160px;
-		font-size: 16px;
-	}
-
-	.copyright {
-		padding-left: 30px;
-}
-
-}
-
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
@@ -248,3 +193,38 @@ footer {
 
 
 
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.nav-vid {
+		width: 640px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.nav-vid {
+		width: 320px;
+	}
+	
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	.nav-vid {
+		width: 160px;
+	}
+
+}
